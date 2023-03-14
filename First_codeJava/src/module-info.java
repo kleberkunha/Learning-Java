@@ -5,5 +5,5 @@
  * @author k
  *
  */
-module snakeGame {
+module First_codeJava {
 }
