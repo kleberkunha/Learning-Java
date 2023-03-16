@@ -6,7 +6,6 @@ public class Character {
 	protected int strength;
 	protected int mana;
 	protected int life;
-	private int def;
 	
 	
 	public Character(String name, String classe, int strength, int mana, int life, int def) {
@@ -39,20 +38,20 @@ public class Character {
 	public int getStrenght() {
 		return strength;
 	}
-	public void setStrenght(int strength) {
+	public void setStrenght() {
 		this.strength = strength;
 	}
 	
 	public int getMana() {
 		return mana;
 	}
-	public void setMana(int mana) {
+	public void setMana() {
 		this.mana = mana;
 	}
 	public int getLife() {
 		return life;
 	}
-	public void setLife(int life) {
+	public void setLife() {
 		this.life = life;
 	}
 

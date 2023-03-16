@@ -6,4 +6,5 @@
  *
  */
 module TimeSystem {
+	requires java.desktop;
 }
