@@ -1,0 +1,19 @@
+#changing the port
+server:
+  port: 8080
+#To build a spring boot without a webserver you will need :
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5332/customer
+    username: demo
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: create-drop # If i restart the application the DB will be destroyed
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+  main:
+    web-application-type: servlet #none for no server, default is servlet
